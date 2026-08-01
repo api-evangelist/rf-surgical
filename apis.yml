@@ -1,7 +1,26 @@
 aid: rf-surgical
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rf-surgical.png
 name: Rf Surgical
-description: Rf Surgical is a company surfaced as a portfolio company of menlo-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'Rf Surgical (RF Surgical Systems) was a medical-device company in the surgical patient-safety
+  space, known for radio-frequency detection technology used to locate retained surgical items such as
+  sponges and gauze during and after operations. It was surfaced as a portfolio company of menlo-ventures
+  and added to the API Evangelist network as a stub. Enrichment probing (2026-07-21) found no independent
+  developer surface: the rfsurgical.com domain no longer resolves to a company site and is parked for sale
+  (HugeDomains), consistent with the company having been absorbed into a larger medical-device parent. There
+  is no public API, developer portal, OpenAPI/AsyncAPI specification, SDK, package, MCP server, or
+  documentation to harvest, so no supply-side API artifacts were generated. This profile carries identity
+  metadata only.'
 url: https://raw.githubusercontent.com/api-evangelist/rf-surgical/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +30,22 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Medical Devices
+- Healthcare
+- Surgical
+- Patient Safety
+- Retained Surgical Items
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
